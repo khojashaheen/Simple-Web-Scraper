@@ -36,6 +36,4 @@ wiki_url = "https://en.wikipedia.org/wiki/List_of_countries_by_population_(Unite
 page = getURL(wiki_url)
 table = scrapeWikiTableFromHTML(page)
 
-print(table)
-
 
