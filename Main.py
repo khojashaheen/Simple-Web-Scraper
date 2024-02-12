@@ -36,11 +36,8 @@ def runWebScraper(url):
     return scrapeWikiTableFromHTML(page)
 
 wiki_url ="https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
+
 table = runWebScraper(wiki_url)
-
-
-print("-----------------------------------")
-print("-----------------------------------")
 
 print(json.dumps(table))
 
